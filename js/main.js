@@ -6,5 +6,6 @@ window.onload = () => {
              .register('./sw.js');
   }
   
+  console.log("redirect ...");
   window.location.replace("https://educareccme.wixsite.com/application");
 }
