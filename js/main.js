@@ -5,4 +5,6 @@ window.onload = () => {
     navigator.serviceWorker
              .register('./sw.js');
   }
+  
+  window.location.replace("https://educareccme.wixsite.com/application");
 }
