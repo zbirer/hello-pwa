@@ -5,7 +5,12 @@ window.onload = () => {
     navigator.serviceWorker
              .register('./sw.js');
   }
-  
-  console.log("redirect ...");
-  window.location.replace("https://educareccme.wixsite.com/application");
+
+  if (window.matchMedia('(display-mode: standalone)').matches) {
+   console.log('display-mode is standalone');
+  } else {
+    console.log('display-mode is other');
+  }
+  //console.log("redirect ...");
+  //window.location.replace("https://educareccme.wixsite.com/application");
 }
