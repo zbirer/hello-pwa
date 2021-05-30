@@ -8,10 +8,10 @@ window.onload = () => {
 
   if (window.matchMedia('(display-mode: standalone)').matches) {
    console.log('display-mode is standalone');
-   document.getElementById(elementID).innerHTML = "Good!";
+   //document.getElementById(elementID).innerHTML = "Good!";
   } else {
     console.log('display-mode is other');
-   document.getElementById(elementID).innerHTML = "Please install app";
+    //document.getElementById(elementID).innerHTML = "Please install app";
   }
   //console.log("redirect ...");
   //window.location.replace("https://educareccme.wixsite.com/application");
