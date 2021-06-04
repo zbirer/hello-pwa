@@ -1,28 +1,28 @@
 {
-  "name": "Hello World",
-  "short_name": "Hello",
+  "name": "EduCare Mindfullness App",
+  "short_name": "EduCare",
   "icons": [{
-    "src": "images/hello-icon-128.png",
-      "sizes": "128x128",
+    "src": "images/tile70x70.png",
+      "sizes": "70x70",
       "type": "image/png"
     }, {
-      "src": "images/hello-icon-144.png",
-      "sizes": "144x144",
+      "src": "images/tile310x310.png",
+      "sizes": "310x310",
       "type": "image/png"
     }, {
-      "src": "images/hello-icon-152.png",
-      "sizes": "152x152",
+      "src": "images/tile310x150.png",
+      "sizes": "310x150",
       "type": "image/png"
     }, {
-      "src": "images/hello-icon-192.png",
+      "src": "images/tile150x150.png",
+      "sizes": "150x150",
+      "type": "image/png"
+    }, {
+      "src": "images/pwa-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     }, {
-      "src": "images/hello-icon-256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    }, {
-      "src": "images/hello-icon-512.png",
+      "src": "images/pwa-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }],
